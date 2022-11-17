@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Gallery</title>
+	<meta charset="utf-8">
+    <style>
+    	.gallery {
+			border: 1px solid #ccc;
+		}
+		.gallery:hover {
+			border: 1px solid #777;
+		}
+		.gallery img {
+			width: 100%;
+			height: auto;
+		}
+		.desc {
+			padding: 5px;
+			text-align: left;
+		}
+		.clearfix:after {
+			content: "";
+			display: table;
+			clear: both;
+		}
+		* {
+			box-sizing: border-box;
+		}
+		.responsive {
+			padding: 0 10px;
+			float: left;
+			width: 13.99999%;
+		}
+		@media only screen and (max-width: 700px){
+			.responsive{
+				width: 39.99999%;
+				margin: 10px 0;
+			}
+		}
+		@media only screen and (max-width: 500px){
+			.responsive {
+				width: 100%;
+			}
+		}
+	ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		background-color: black;
+		overflow: hidden;  
+	}
+	li a {
+		display: block;
+		color: white;
+		text-align: center;
+		padding: 20px 24px;
+		text-decoration: none;
+	}
+	li a:hover {
+		background-color: skyblue;
+	}
+	li {
+		float: left;
+	}
+	img {
+		opacity: 0.6;
+	}
+	img:hover {
+		opacity: 1;
+	}
+	
+	.dropdown {
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 12px 0px rgba(0,0,0,0.2);
+  z-index: 1; 
+}
+.dropdown-content a {
+  color: black;
+  padding: 14px 18px;
+  text-decoration: none;
+  display: block;
+  text-align: left;  
+}
+.dropdown-content a:hover {
+  background-color: skyblue;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+        
+	
+</style>
+
+</head>
+<body>
+<ul>
+   <li><a href="index.html" target="_self"> Home</a></li>
+   <li><a href="Romana.html" target="_self">Armas Brancas - Romana</a></li>
+   <li><a href="Chinesa.html" target="_self">Armas Brancas - Chinesa</a></li>
+   <li class="dropdown">
+    <a class="dropbtn" href="#.html" target="_self">Armas Brancas - Japonesa</a>
+    <div class="dropdown-content">
+      <a href="Jitte.html">Jitte</a>
+
+      <a href="Uchigatana.html">Uchigatana</a>
+
+      <a href="Shinai.html">Shinai</a>
+
+    </div>
+  </li>
+  <li> <a href="Gallery.html">Armas Brancas - Gallery</a></li>
+	
+</ul>
+<div class="responsive">
+<div class="gallery">
+	<br><br><br><br>
+
+	<a href="jitte 2.jpg" target="_blank">
+		<img src="jitte 2.jpg" alt="Jitte"
+		width="600" height="auto">
+	</a>
+	<div class="desc"> <strong>Jutte</strong> - É um kata do caratê originário do estilo Tomari-te, cujas raízes são encontradas na China, nos estilos derivados do estilo da garça branca, do templo Shaolin.</div>
+
+</div>
+</div>
+
+<div class="responsive">
+<div class="gallery">
+	<br><br><br><br>
+	<a href="Shinai.jpg" target="_blank">
+		<img src="Shinai.jpg" alt="Shinai"
+		width="600" height="400">
+	</a>
+	<div class="desc"><strong>Shinai</strong> - É uma espada de bambu, feita para se poder praticar artes marcais como Kendo e Kenjutsu, sem causar grandes lesões ao adversário. </div>
+
+</div>
+</div>
+
+<div class="responsive">
+<div class="gallery">
+	<br><br><br><br>
+
+	<a   href="gladius.jpg" target="_blank">
+		<img src="gladius.jpg" alt="gladius"
+		width="150" height="auto">
+	</a>
+	<div class="desc"><strong>Gladius</strong> - É uma espada curta utilizada na Antiguidade, que os autores latinos chamavam ense. </div>
+
+</div>
+</div>
+
+<div class="responsive">
+<div class="gallery">
+	<br><br><br><br>
+
+	<a href="Pugio.jpg" target="_blank">
+		<img src="Pugio.jpg" alt="Pugio"
+		width="600" height="400">
+	</a>
+	<div class="desc"><strong>Púgio ou pugião</strong> - Era uma adaga, um punhal ou faca de dois gumes e lâmina larga triangular ou foliforme.</div>
+
+</div>
+</div>
+<div class="responsive">
+<div class="gallery">
+	<br><br><br><br>
+
+	<a href="uchigatana.jpg" target="_blank">
+		<img src="uchigatana.jpg" alt="Katana"
+		width="600" height="400">
+	</a>
+	<div class="desc"><strong>Katana</strong> - É uma tradicional espada japonesa 
+	(日本刀) que foi usada pelos samurais do Japão antigo e feudal.</div>
+
+</div>
+</div>
+
+<div class="responsive">
+<div class="gallery">
+	<br><br><br><br>
+
+	<a href="saii.jpg" target="_blank">
+		<img src="saii.jpg" alt="saii"
+		width="600" height="400">
+	</a>
+	<div class="desc"><strong>Sai (Adaga)</strong> - A adaga Sai também é uma arma originária do antigo Kobudo de Okinawa.</div>
+
+</div>
+</div>
+
+<div class="responsive">
+<div class="gallery">
+	<br><br><br><br>
+
+	<a href="img2.jpg" target="_blank">
+		<img src="img2.jpg" alt="img2"
+		width="600" height="400">
+	</a>
+	<div class="desc"><strong>Nunchaku</strong> - É atribuida aos Chineses e sua criação perpassa por várias hipóteses.</div>
+
+</div>
+</div>
+
+
+<div class="clearfix"></div>
+
+
+
+ 
+</body>
+</html>
